@@ -1,4 +1,5 @@
 # Phantom-Library
+
 Team Phantom Library Package containing schematic and PCB libraries for every component.
 
 All components use a metric grid 
@@ -7,6 +8,7 @@ It is requested that you use the components that are already within the library,
 If your design uses a new unique component then it will be added to this library package.
 
 # Process for adding new components
+
 There are two ways to add new components into the library.
 
 1. Send the part number and description to Jarod or whoever is the current electric lead and they will add it in.
@@ -16,3 +18,10 @@ There are two ways to add new components into the library.
 
 Pull the master branch, save it in a seperate folder from your project.
 From within your project select add existing to project... and select the PCB library and any of the schematic libraries that are needed. It is not neccessary to include all libraries if not needed, it will only make your project larger. 
+
+# When creating project BOMs
+
+From the Reports tab -> Bill of Materials 
+Save it as an excel worksheet, BOM default template
+Ensure the Supplier Part Number box is checked from the left column of parameters.
+Designator, Quantity and Supplier Part Number are the minimum required parameters for a BOM.
